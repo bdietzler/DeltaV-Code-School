@@ -1,3 +1,48 @@
 body {
-  background-color: blue;
+  background-color: lightblue;
+  margin: 0;
+}
+
+h1 {
+    Color: black;
+    margin: 0;
+    padding: .25em;
+    font-size: 3em;
+    font-family: Inconsolata; georgia; times new roman;
+    text-align: center;
+}
+
+header {
+  background-color: white;
+
+}
+
+nav {
+    background-color: darkblue;
+
+}
+
+ul {
+    margin:0;
+    background-color: orange;
+    padding: 0em;
+}
+
+li {
+
+    font-size: 1em;
+    /* background-color: red; */
+    display: inline-block;
+    
+}
+
+a {
+    color: white;
+    display: inline-block;
+        text-decoration: none;
+    padding: 0.5em 2em;
+}
+a:hover {
+  color: darkblue;
+  font-weight: bold;
 }
