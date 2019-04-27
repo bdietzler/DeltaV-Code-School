@@ -4,12 +4,13 @@ body {
 }
 
 h1 {
-    Color: black;
+    color: black;
     margin: 0;
     padding: .25em;
     font-size: 3em;
     font-family: Inconsolata; georgia; times new roman;
     text-align: center;
+    background-color: yellow;
 }
 
 header {
@@ -22,27 +23,69 @@ nav {
 
 }
 
-ul {
+nav ul {
     margin:0;
     background-color: orange;
     padding: 0em;
 }
 
-li {
+nav li {
 
     font-size: 1em;
     /* background-color: red; */
     display: inline-block;
+    
 
 }
 
-a {
+nav a {
     color: white;
     display: inline-block;
     text-decoration: none;
     padding: 0.5em 2em;
 }
-a:hover {
+nav a:hover {
   color: darkblue;
   font-weight: bold;
+}
+
+#calendar {
+    float: left;
+    width: 500px;
+    padding: .5em
+    color: white;
+}
+  #calendar ul {
+    list-style: none;
+    padding-left: 0.25em
+  }
+#calendar strong {
+  color: purple;
+}
+
+section {
+  background-color: green;
+  margin-left: 450px
+
+  /* padding: 1.5em; */
+}
+h2, h3 {
+  margin: 0;
+}
+
+main {
+  font-family: arial;
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+.left {
+  float:left
+}
+#container::after {
+  content: "";
+  display: block;
+  clear: both;
 }

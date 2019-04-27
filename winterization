@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Better Boat Care</title>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+      </head>
+    <body>
+        <header>
+            <h1>Better Boat Care</h1>
+        </header>
+        <nav>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                  <a href="https://alexaleitaker.github.io/Code101-2019April/">Virtual Assistant Business</a>
+              </li>
+              <li>
+                  <a href="https://jwillging.github.io/code101-april2019/">Start a Business</a>
+              </li>
+              <li>
+                  <a href="tipsandtricks">Tips and Tricks</a>
+              </li>
+              <li>
+                  <a href="winterization">Winteriztion</a>
+              </li>
+              <li>
+                  <a href="oilsandlubricants">Oils and Lubricants</a>
+              </li>
+              <li>
+                  <a href="damagecontrol">Damage Control</a>
+              </li>
+                          </ul>
+        </nav>
+        <main>
+            <aside id="calendar">
+                <h3>Calendar of Events</h3>
+                <ul>
+                    <li><strong>May 4th</strong>-May the 4th Be With You Boat Event</li>
+                    <li><strong>May 5th</strong>-Cinco de Mayo Celebration at the Coralville Reservior</li>
+                    <li><strong>July 4th</strong>-Downtown Fireworks</li>
+                </ul>
+            </aside>
+            <section>
+                <h2>Winterize Your Boat Efficently and Effectively</h2>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
