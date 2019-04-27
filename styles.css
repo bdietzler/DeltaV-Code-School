@@ -34,8 +34,6 @@ nav li {
     font-size: 1em;
     /* background-color: red; */
     display: inline-block;
-    
-
 }
 
 nav a {
@@ -82,10 +80,20 @@ section h2 {
 }
 
 .left {
-  float:left
+  float:left;
+  margin-right: 1em;
 }
 #container::after {
   content: "";
   display: block;
   clear: both;
+}
+
+footer {
+  background-color: yellow;
+  padding-top: 1em;
+}
+.right {
+  float: right;
+  margin-left: 1em;
 }
